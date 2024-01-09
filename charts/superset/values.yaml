@@ -1,6 +1,7 @@
 superset:
   image:
     repository: apache/superset
+    # renovate: datasource=docker depName=apache/superset
     tag: master-py310
     pullPolicy: IfNotPresent
   init:

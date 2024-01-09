@@ -24,6 +24,7 @@ ingress:
 redash:
   image:
     repository: redash/redash
+    # renovate: datasource=docker depName=redash/redash
     tag: 10.0.0.b50363
   externalPostgreSQLSecret:
     name: redash-postgres

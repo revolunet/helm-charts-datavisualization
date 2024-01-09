@@ -5,6 +5,7 @@ service:
     repository: "metabase/metabase"
     pullPolicy: IfNotPresent
     # Overrides the image tag whose default is the chart appVersion.
+    # renovate: datasource=docker depName=metabase/metabase
     tag: "v0.47.11"
 
 global:
