@@ -30,7 +30,7 @@ version: 0.0.7
 
 dependencies:
   - name: superset
-    version: 0.10.11
+    version: 0.22.8
     repository:  https://apache.github.io/superset
   - name: library-chart
     version: 1.5.15
